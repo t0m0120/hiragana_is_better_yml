@@ -1,0 +1,660 @@
+# prh version
+version: 1
+
+# https://webtan.impress.co.jp/e/2017/11/24/26279
+rules:
+  - expected: あえて	
+    patterns:
+      - 敢えて
+  - expected: あたって
+    patterns:
+      - 当たって
+  - expected: あなた
+    patterns:
+      - 貴方
+      - 貴女
+  - expected: あまり
+    patterns:
+      - 余り
+  - expected: あらかじめ
+    patterns:
+    - 予め
+  - expected: ある
+    patterns:
+    - 有る
+  - expected: あり
+    patterns:
+    - 有り
+  - expected: あるいは
+    patterns:
+    - 或いは
+  - expected: あらためて
+    patterns:
+    - あらためて
+  - expected: あわせて
+    patterns:
+    - 併せて
+  - expected: いう
+    patterns:
+    - 言う
+  - expected: いわば
+    patterns:
+    - 言わば
+  - expected: いかん
+    patterns:
+    - 如何
+  - expected: いかに
+    patterns:
+    - 如何に
+  - expected: いくつ
+    patterns:
+    - 幾つ
+  - expected: いずれ
+    patterns:
+    - 何れ
+  - expected: いたす
+    patterns:
+    - 致す
+  - expected: いたします
+    patterns:
+    - 致します
+  - expected: いただく
+    patterns:
+    - 頂く
+    - 戴く
+  - expected: いたって
+    patterns:
+    - 至って
+  - expected: いつ
+    patterns:
+    - 何時
+  - expected: いっそう
+    patterns:
+    - 一層
+  - expected: いったん
+    patterns:
+    - 一旦
+  - expected: いっぱい
+    patterns:
+    - 一杯
+  - expected: いっぺん
+    patterns:
+    - 一遍
+  - expected: いまさら
+    patterns:
+    - 今更
+    - 今さら
+  - expected: いまだ
+    patterns:
+    - 未だ
+  - expected: いる
+    patterns:
+    - 居る
+  - expected: おり
+    patterns:
+    - 居り
+  - expected: いろいろ
+    patterns:
+    - 色々
+  - expected: いわゆる
+    patterns:
+    - 所謂
+  - expected: うち
+    patterns:
+    - 内
+  - expected: ありえる
+    patterns:
+    - あり得る
+  - expected: うれしい
+    patterns:
+    - 嬉しい
+  - expected: おおむね
+    patterns:
+    - 概ね
+  - expected: しておく
+    patterns:
+    - して置く
+  - expected: おそらく
+    patterns:
+    - 恐らく
+  - expected: およそ
+    patterns:
+    - 凡そ
+  - expected: および
+    patterns:
+    - 及び
+  - expected: かつ
+    patterns:
+    - 且つ
+  - expected: かなり
+    patterns:
+    - 可也
+  - expected: ください
+    patterns:
+    - 下さい
+  - expected: 組み合わせ
+    patterns:
+    - 組合せ
+    - 組み合せ
+    - 組合わせ
+  - expected: くらい
+    patterns:
+    - 位
+  - expected: ぐらい
+    patterns:
+    - 位
+  - expected: ここ
+    patterns:
+    - 此処
+  - expected: こと
+    patterns:
+    - 事
+  - expected: ごと
+    patterns:
+    - 毎
+  - expected: ことさら
+    patterns:
+    - 殊更
+  - expected: ころ/ごろ
+    patterns:
+    - 頃
+  - expected: 先ほど/さきほど
+    patterns:
+    - 先程
+  - expected: さすが
+    patterns:
+    - 流石
+  - expected: さまざま
+    patterns:
+    - 様々
+  - expected: さらに
+    patterns:
+    - 更に
+  - expected: しがたい
+    patterns:
+    - し難い
+  - expected: じかに
+    patterns:
+    - 直に
+  - expected: したがって
+    patterns:
+    - 従って
+  - expected: しばらく
+    patterns:
+    - 暫く
+  - expected: すぐに
+    patterns:
+    - 直ぐに
+  - expected: すでに
+    patterns:
+    - 既に
+  - expected: すなわち
+    patterns:
+    - 即ち
+  - expected: すでに
+    patterns:
+    - 既に
+  - expected: すなわち
+    patterns:
+    - 即ち
+  - expected: すべて
+    patterns:
+    - 全て
+  - expected: せっかく
+    patterns:
+    - 折角
+  - expected: ぜひ
+    patterns:
+    - 是非
+  - expected: そば
+    patterns:
+    - 側
+    - 傍
+  - expected: だいぶ
+    patterns:
+    - 大分
+  - expected: たくさん
+    patterns:
+    - 沢山
+  - expected: ただ
+    patterns:
+    - 只
+  - expected: ただし
+    patterns:
+    - 但し
+  - expected: たとえば
+    patterns:
+    - 例えば
+  - expected: たびたび 
+    patterns:
+    - 度々
+  - expected: たび
+    patterns:
+    - 度
+  - expected: ため
+    patterns:
+    - 為
+  - expected: 団らん
+    patterns:
+    - 団欒
+  - expected: ちょうど
+    patterns:
+    - 丁度
+  - expected: ちょっと
+    patterns:
+    - 一寸
+  - expected: ついに
+    patterns:
+    - 遂に
+  - expected: につき
+    patterns:
+    - に付き
+  - expected: つながる
+    patterns:
+    - 繋がる
+  - expected: つながり
+    patterns:
+    - 繋がり
+  - expected: できる
+    patterns:
+    - 出来る
+  - expected: 問い合わせ
+    patterns:
+    - 問合わせ
+    - 問い合せ
+    - 問合せ
+  - expected: お問い合わせ
+    patterns:
+    - お問合わせ
+    - お問い合せ
+    - お問合せ
+  - expected: とおり/どおり
+    patterns:
+    - 通り
+  - expected: とき/どき
+    patterns:
+    - 時
+  - expected: どこ
+    patterns:
+    - 何処
+  - expected: ともない
+    patterns:
+    - 伴い
+  - expected: ともに
+    patterns:
+    - 共に
+  - expected: とらえる
+    patterns:
+    - 捉える
+  - expected: 取り扱い
+    patterns:
+    - 取扱
+    - 取扱い
+  - expected: ない
+    patterns:
+    - 無い
+  - expected: なく
+    patterns:
+    - 無く
+  - expected: なお
+    patterns:
+    - 尚
+  - expected: なおさら
+    patterns:
+    - 尚更
+  - expected: なかなか
+    patterns:
+    - 中々
+  - expected: なぜ
+    patterns:
+    - 何故
+  - expected: など
+    patterns:
+    - 等
+  - expected: 何とぞ/なにとぞ
+    patterns:
+    - 何卒
+  - expected: なる
+    patterns:
+    - 成る
+  - expected: なんら
+    patterns:
+    - 何ら
+    - 何等
+  - expected: はなはだしい
+    patterns:
+    - 甚だしい
+  - expected: ひとつ
+    patterns:
+    - 一つ
+    - 1つ
+  - expected: ひとつひとつ
+    patterns:
+    - 一つ一つ
+    - 1つ1つ
+    - １つ１つ
+  - expected: のほう
+    patterns:
+    - の方
+  - expected: ほか
+    patterns:
+    - 他
+  - expected: ほど
+    patterns:
+    - 程
+  - expected: ほどほど
+    patterns:
+    - 程々
+  - expected: ほとんど
+    patterns:
+    - 殆ど
+  - expected: まず
+    patterns:
+    - 先ず
+  - expected: ますます
+    patterns:
+    - 益々
+  - expected: また
+    patterns:
+    - 又
+  - expected: まったく
+    patterns:
+    - 全く
+  - expected: まで
+    patterns:
+    - 迄
+  - expected: めった
+    patterns:
+    - 滅多
+  - expected: めっぽう
+    patterns:
+    - 滅法
+  - expected: もしくは
+    patterns:
+    - 若しくは
+  - expected: もつ
+    patterns:
+    - 持つ
+  - expected: もって
+    patterns:
+    - 以って
+  - expected: もっぱら
+    patterns:
+    - 専ら
+  - expected: もとで
+    patterns:
+    - 下で
+  - expected: もとに
+    patterns:
+    - 元に
+    - 基に
+  - expected: もの
+    patterns:
+    - 物
+    - 者
+  - expected: もはや
+    patterns:
+    - 最早
+  - expected: やすい
+    patterns:
+    - 易い
+  - expected: やさしい
+    patterns:
+    - 易しい
+  - expected: ゆえに
+    patterns:
+    - 故に
+  - expected: ゆくゆく
+    patterns:
+    - ゆくゆく
+  - expected: よい
+    patterns:
+    - 良い
+    - 善い
+  - expected: 様に
+    patterns:
+    - ように
+    - ような
+  - expected: よって
+    patterns:
+    - 因って
+    - 依って
+    - 拠って
+  - expected: よほど
+    patterns:
+    - 余程
+  - expected: わけ
+    patterns:
+    - 訳
+  - expected: わずか
+    patterns:
+    - 僅か
+  - expected: 私たち
+    patterns:
+    - 私達
+  - expected: わりと
+    patterns:
+    - 割りと
+    - 割と
+  - expected: われ
+    patterns:
+    - 我
+    - 我々
+  - expected: あとで
+    patterns:
+    - 後で
+  - expected: あわらす
+    patterns:
+    - 表す
+  - expected: うえで
+    patterns:
+    - 上で
+  - expected: うまく
+    patterns:
+    - 上手く
+  - expected: おもしろい
+    patterns:
+    - 面白い
+  - expected: きわめて
+    patterns:
+    - きわめて
+  - expected: こまかい
+    patterns:
+    - 細かい
+    - 細かく
+  - expected: さま
+    patterns:
+    - 様
+  - expected: すぎる
+    patterns:
+    - 過ぎる
+  - expected: たいへん
+    patterns:
+    - 大変
+  - expected: たしかに
+    patterns:
+    - 確かに
+  - expected: ついで
+    patterns:
+    - 次いで
+  - expected: つかう
+    patterns:
+    - 使う
+    - 遣う
+  - expected: つくる
+    patterns:
+    - 作る
+    - 創る
+    - 造る
+  - expected: つづき/く
+    patterns:
+    - 続き
+    - 続く
+  - expected: つながる
+    patterns:
+    - 繋がる
+  - expected: なおす
+    patterns:
+    - 治す
+    - 直す
+  - expected: なか
+    patterns:
+    - 中
+  - expected: なに
+    patterns:
+    - 何
+  - expected: なんとなく
+    patterns:
+    - 何となく
+  - expected: ぬるい
+    patterns:
+    - 温い
+  - expected: のちほど
+    patterns:
+    - 後ほど
+  - expected: はさんで
+    patterns:
+    - 挟んで
+  - expected: はじめ
+    patterns:
+    - 初め
+    - 始め
+  - expected: ひさしぶり
+    patterns:
+    - 久しぶり
+  - expected: ひさびさ
+    patterns:
+    - ひさびさ
+  - expected: ひとり
+    patterns:
+    - 一人
+    - 独り
+  - expected: ふたつ
+    patterns:
+    - 二つ
+    - 2つ
+  - expected: まぎらわしい
+    patterns:
+    - 紛らわしい
+  - expected: まじめに
+    patterns:
+    - 真面目に
+  - expected: もとづく
+    patterns:
+    - 基づ
+  - expected: むずかしい
+    patterns:
+    - 難しい
+  - expected: もっとも
+    patterns:
+    - 最も
+  - expected: やわらかい
+    patterns:
+    - 柔らかい
+  - expected: わかる
+    patterns:
+    - 分かる
+    - 判る
+    - 解る
+  - expected: わたし
+    patterns:
+    - 私
+  # http://www.yamanouchi-yri.com/yrihp/techwrt-2-4s/t-2-4s03fb.htm
+  - expected: するうえで
+    patterns:
+    - する上で
+  - expected: すること
+    patterns:
+    - する事
+  - expected: するごと
+    patterns:
+    - する毎
+  - expected: ため
+    patterns:
+    - 為
+  - expected: につき
+    patterns:
+    - に付き
+  - expected: のとおり
+    patterns:
+    - の通り
+  - expected: するとき
+    patterns:
+    - する時
+  - expected: ところ
+    patterns:
+    - 所
+  - expected: のほうが
+    patterns:
+    - の方が
+  - expected: のほか
+    patterns:
+    - の他
+    - の外
+  - expected: するわけ
+    patterns:
+    - する訳
+  - expected: していく
+    patterns:
+    - して行く
+  - expected: いただく
+    patterns:
+    - 戴く
+    - 頂く
+  - expected: ください
+    patterns:
+    - 下さい
+  - expected: できる
+    patterns:
+    - 出来る
+  - expected: になる
+    patterns:
+    - に成る
+  - expected: してみる
+    patterns:
+    - して見る
+  - expected: にみられる
+    patterns:
+    - に見られる
+  - expected: とよぶ
+    patterns:
+    - と呼ぶ
+  - expected: による
+    patterns:
+    - に依る
+    - に拠る
+    - に因る
+  - expected: わかる
+    patterns:
+    - 分かる
+    - 解る
+    - 判る
+  - expected: ごとく
+    patterns:
+    - 如く
+  - expected: しない
+    patterns:
+    - し無い
+  - expected: のような
+    patterns:
+    - の様な
+  - expected: さまざま
+    patterns:
+    - 様々
+  - expected: しがたい
+    patterns:
+    - し難い
+  - expected: ない
+    patterns:
+    - 無い
+  - expected: しやすい/やさしい
+    patterns:
+    - 易い
+    - 易しい
+  - expected: よい
+    patterns:
+    - 善い
+    - 良い
+  - expected: してよい
+    patterns:
+    - して良い
